@@ -1,0 +1,32 @@
+.modal {
+    position: fixed;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border: 1px solid #fa5624;
+    padding: 14px;
+    border-radius: 10px;
+    animation: drop-down 0.5s forwards;
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes drop-down {
+    from {
+        top: -200px;
+    }
+    to {
+        top: 100px;
+    }
+}
+
+.errorMessage {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    color: #403937;
+}

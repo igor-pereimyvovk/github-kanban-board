@@ -1,0 +1,27 @@
+.columnsContainer {
+    flex: 1;
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    height: calc(100% - 168px);
+}
+
+.noIssues {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.copyTestLink {
+    height: fit-content;
+    padding: 10px;
+    color: #403937;
+    font-size: 30px;
+    cursor: pointer;
+    transition: opacity 0.1s linear;
+    font-weight: 600;
+}
+
+.copyTestLink:hover {
+    opacity: 0.5;
+}

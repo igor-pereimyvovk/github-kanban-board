@@ -1,26 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import KanbanBoard from "./components/KanbanBoard/KanbanBoard";
+import RepositoryForm from "./components/RepositoryForm/RepositoryForm";
+import RepositoryLinks from "./components/RepositoryLinks/RepositoryLinks";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App: React.FC = () => {
+    return (
+        <div className="container">
+            <header>
+                <RepositoryLinks />
+                <RepositoryForm />
+            </header>
+            <KanbanBoard />
+        </div>
+    );
+};
 
 export default App;

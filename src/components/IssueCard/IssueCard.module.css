@@ -1,0 +1,64 @@
+.issueCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+    height: 140px;
+    min-height: 140px;
+    width: 276.66px;
+    padding: 18px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    cursor: grab;
+    z-index: 10;
+}
+
+.body {
+    font-size: 13px;
+    flex: 1 10 auto;
+    overflow-y: scroll;
+    word-wrap: break-word;
+    word-break: break-all;
+    scrollbar-width: none;
+    color: #756966;
+}
+
+.title {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #403937;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.info {
+    font-size: 11px;
+    display: flex;
+    gap: 6px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.infoElement {
+    padding: 4px;
+    background: #e2d6ff;
+    color: #7c3aed;
+    border-radius: 8px;
+    text-wrap: nowrap;
+}
+
+.draggingIssue {
+    height: 140px;
+    min-height: 140px;
+    width: 276.66px;
+    border: 1px solid #e2d6ff;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255, 0.1);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    cursor: grab;
+    z-index: 10;
+}

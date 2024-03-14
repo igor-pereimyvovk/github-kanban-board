@@ -1,0 +1,45 @@
+.repositoryInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.infoLinks {
+    color: #ba9dfe;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.infoLinks:hover {
+    color: #c9b1ff;
+}
+
+.instruction {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 30px;
+    color: #403937;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.stars span {
+    font-size: 18px;
+    color: #8a58ff;
+    font-weight: 600;
+}

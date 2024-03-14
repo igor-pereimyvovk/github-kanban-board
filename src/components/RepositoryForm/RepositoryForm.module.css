@@ -1,0 +1,35 @@
+form {
+    display: flex;
+    gap: 16px;
+    position: relative;
+}
+
+.loadIssueButton {
+    background: rgba(146, 90, 241, 1);
+    color: #ffffff;
+    font-size: 17px;
+    padding: 14px 32px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.loadIssueButton:hover {
+    background: rgba(146, 90, 241, 0.8);
+}
+
+input {
+    flex: 1;
+    font-size: 17px;
+    border-radius: 7px;
+    border: 1px solid rgba(124, 124, 138, 0.2);
+    padding-left: 12px;
+    outline: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.12);
+}
+
+input::placeholder {
+    color: #7c7c8a;
+    font-size: 17px;
+}
