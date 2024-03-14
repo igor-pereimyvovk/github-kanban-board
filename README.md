@@ -1,5 +1,10 @@
 ## Github Kanban Board
 
+### Links
+
+-   Solution URL: https://github.com/igor-pereimyvovk/github-kanban-board
+-   Live Site URL: https://igor-pereimyvovk.github.io/github-kanban-board
+
 ### Users should be able to
 
 -   User should enter repo URL in the input on top of the page and press "Load". For example: https://github.com/ facebook/react
